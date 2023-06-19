@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <>
     <Image src={logo} alt='logo' width={100} marginBottom='1rem' />
-    <Heading>AI Keyword Extractor</Heading>
+    <Heading color="white" marginBottom='1rem'>AI Keyword Extractor</Heading>
+    <Text fontSize='25' textAlign="center">Paste in your text below and we will extract the keywords for you</Text>
     </>
   )
 }
