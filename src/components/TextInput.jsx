@@ -39,7 +39,7 @@ const TextInput = ({extractKeywords}) => {
         hover={{ bg:"blue.700"}}
         onClick={submitText}
         >
-            ExtractKeywords
+            Extract Keywords
         </Button>
     </>
   )
